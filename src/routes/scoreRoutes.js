@@ -39,7 +39,7 @@ router.post('/check-primes', (req, res) => {
 
         // Extract scores and check if they're prime
         const scoreValues = scores.map(item => item.score);
-        const primeResults = checkArrayForPrimes(scoreValues);
+        const primeResults = checkArrayForPrimessss(scoreValues);
 
         // Combine results with original data
         const results = scores.map((item, index) => ({
